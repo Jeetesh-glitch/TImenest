@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timenest</title>
+  <link rel="stylesheet" href="theme2style.css">
+</head>
+<body>
+  <!-- Navbar -->
+    <div class="navbar">
+    <a href="home.html" class="nav-link">Home</a>
+    <a href="music.html" class="nav-link">Music</a>
+    <a href="pomodoro.html" class="nav-link">Pomodoro</a>
+    <a href="todo.html" class="nav-link">To-Do</a>
+  </div>
+  <!-- Themes Section -->
+  <h1>THEMES</h1>
+  <div class="theme-container">
+    <!-- Theme Box 1 -->
+    <div class="theme-box">
+      <video src="image/zelda.mp4" autoplay loop muted></video>
+      <button onclick="setBackground('zelda.mp4')">Set Theme</button>
+    </div>
+    <!-- Theme Box 2 -->
+    <div class="theme-box">
+      <video src="image/minecraft.mp4" autoplay loop muted></video>
+      <button onclick="setBackground('minecraft.mp4')">Set Theme</button>
+    </div>
+    <!-- Theme Box 3 -->
+    <div class="theme-box">
+      <video src="image/sunset.mp4" autoplay loop muted></video>
+      <button onclick="setBackground('sunset.mp4')">Set Theme</button>
+    </div>
+  </div>
+
+  <script src="theme2script.js"></script>
+</body>
+</html>
